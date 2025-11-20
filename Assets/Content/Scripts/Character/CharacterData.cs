@@ -9,7 +9,6 @@ public class CharacterData
     [SerializeField] private float moveSpeed;
     [SerializeField] private int attackPower;
 
-    // Свойства доступны только для чтения извне
     public string CharacterName => characterName;
     public int Health => health;
     public int MaxHealth => maxHealth;
